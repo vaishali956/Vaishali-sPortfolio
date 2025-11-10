@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+/*
+  background: linear-gradient(135deg, #f8f9fa, #e0e7ff);
+  */
+   background:linear-gradient(135deg, #2b2c2dff, #02050cff);
+   color: white !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.myImg img{
+  height: 60% !important;
+  width: 60%;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width:1700px){
+  #homediv{
+    display: flex;
+    flex-wrap: wrap;  
+  }
+}
+
+.aboutSec{
+  margin: 12%;
+}
+.aboutSec div{
+  margin: 20px 50px;
+}
+
+.contact a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.skillspage{
+  border: 2px solid #b4c4dcff;
+  box-shadow: 2px 2px 5px 5px #aeb5ccff, 1rem 1rem 1rem#1b7896;
+  border-radius: 10px;
 }
