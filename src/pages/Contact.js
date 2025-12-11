@@ -2,7 +2,12 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact" className="py-5 mt-5">
+    <section id="contact"
+      style={{
+        background: "linear-gradient(to bottom, #111213ff, #1c4195ff)",
+        minHeight: "100vh",
+        paddingTop:"6%"
+      }}>
       <div className="container">
         <h2 className="text-center fw-bold mb-4">Contact Me</h2>
         <p className="text-center mb-5">

@@ -8,7 +8,7 @@ body {
 /*
   background: linear-gradient(135deg, #f8f9fa, #e0e7ff);
   */
-   background:linear-gradient(135deg, #2b2c2dff, #02050cff);
+   background:linear-gradient(135deg, #6987a4, rgb(13, 16, 23));
    color: white !important;
 }
 
@@ -28,14 +28,28 @@ code {
   #homediv{
     display: flex;
     flex-wrap: wrap;  
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:1700px){
+  #aboutdiv{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:1700px){
+  extracurricular{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
   }
 }
 
 .aboutSec{
-  margin: 12%;
-}
-.aboutSec div{
-  margin: 20px 50px;
+  margin: 5%;
 }
 
 .contact a{
@@ -44,8 +58,14 @@ code {
   margin-left: 20px;
 }
 
-.skillspage{
-  border: 2px solid #b4c4dcff;
-  box-shadow: 2px 2px 5px 5px #aeb5ccff, 1rem 1rem 1rem#1b7896;
-  border-radius: 10px;
+.skills{
+  border-top: 10px solid rgb(85, 127, 190);
+  border-right: 10px solid  rgb(85, 127, 190);
+  border-left: 10px solid  rgb(85, 127, 190);
+  box-shadow: 1px 1px 1px #212224ff, 0 0 1rem #202e33ff; 
+  padding: 50px 10px 30px 10px;
+  border-radius: 70px 70px 0px 0px;
+  margin: 20px;
+  background-color: transparent;
+  backdrop-filter:blur(100px);
 }

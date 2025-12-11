@@ -14,7 +14,7 @@ function TwoComponent({
       id="home"
       className="py-5"
       style={{
-        background: "linear-gradient(135deg, #2b2c2d, #02050c)",
+        background: "linear-gradient(to right , #0e0e0eff, #1e51e8ff)",
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
@@ -24,7 +24,7 @@ function TwoComponent({
         className="container"
         style={{
           border: "2px solid #b4c4dc",
-          boxShadow: "2px 2px 5px 5px #aeb5ccff, 1rem 1rem 1rem #1b7896",
+          boxShadow: "2px 2px 5px 5px #ccccdcff, 1rem 1rem 1rem #1b7896",
           borderRadius: "20px",
           padding: "10%",
         }}
@@ -40,7 +40,7 @@ function TwoComponent({
                 width: "250px",
                 height: "250px",
                 objectFit: "cover",
-                border: "5px solid #3aaacf",
+                border: "5px solid #6866cfff",
                 boxShadow: "2px 2px 5px 5px #aeb5ccff, 1rem 1rem 1rem #1b7896",
               }}
             />

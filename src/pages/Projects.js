@@ -2,16 +2,21 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="projects" className="py-5 mt-5">
-      <div className="container p-5" style={{boxShadow:"2px 2px 10px 10px #aeb5ccff, 1rem 1rem 1rem #1b7896"}}>
-        <h2 className="text-center fw-bold mb-5">Projects</h2>
+    <section id="projects"
+      style={{
+        background: "linear-gradient(135deg, #2b2c2d, #3b63bfff)",
+        minHeight: "100vh",
+         paddingTop:"6%"
+      }}>
+      <div className="container">
+        <h2 className="text-center fw-bold mb-3">Projects</h2>
 
-        <div className="row">
+        <div className="row" style={{display:"flex", justifyContent:"center"}}>
           {/* Project 1 - Dream Home */}
-          <div className="col-12 col-md-6 mb-4">
+          <div className="col-12 col-md-8 mb-4">
             <div className="card shadow-sm border-0 h-100">
               <div className="card-body">
-                <h4 className="card-title fw-bold">Dream Home – Property Listing Platform</h4>
+                <h4 className="card-title fw-bold">🏠 Dream Home – Property Listing Platform</h4>
                 <h6 className="text-muted">Jan 2025 – Apr 2025 | Full Stack Project</h6>
                 <ul className="mt-3">
                   <li>
@@ -35,10 +40,10 @@ function Projects() {
           </div>
 
           {/* Project 2 - Stock Trading Platform */}
-          <div className="col-12 col-md-6 mb-4">
+          <div className="col-12 col-md-8 mb-4">
             <div className="card shadow-sm border-0 h-100">
               <div className="card-body">
-                <h4 className="card-title fw-bold">Stock Trading Platform (Zerodha Clone)</h4>
+                <h4 className="card-title fw-bold">📈 Stock Trading Platform </h4>
                 <h6 className="text-muted">Jun 2024 – Sept 2024 | MERN Stack Project</h6>
                 <ul className="mt-3">
                   <li>
@@ -51,7 +56,7 @@ function Projects() {
                   </li>
                 </ul>
                 <p className="mt-3 mb-0">
-                  <strong>Tech Stack:</strong> Node.js, Express.js, React, MongoDB, AWS, REST APIs
+                  <strong>Tech Stack:</strong> Node.js, Express.js, React, MongoDB, Netlify, REST APIs
                 </p>
               </div>
             </div>

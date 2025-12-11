@@ -2,15 +2,23 @@ import React from "react";
 
 function About() {
   return (
-    <section id="about" className="py-5 mt-3">
+    <section id="about"  
+      style={{
+        background: "linear-gradient(135deg, #2b2c2d, #1f4cb5ff)",
+        minHeight: "100vh",
+         paddingTop:"8%"
+      }}>
       <div className="container">
         {/* Heading */}
 
-        <div className="row align-items-center">
+        <div className="row align-items-center about" id="aboutdiv">
           {/* Left - Detailed Info */}
         
           <div className="col-12 col-md-6 text-center text-md-start p-5" 
-            style={{border:"2px solid #b4c4dcff", boxShadow: "1px 1px 1px white, 0 0 2rem #1b7896", borderRadius:"20px"
+            style={{
+              border:"2px solid #b4c4dcff", 
+              boxShadow: "1px 1px 1px white, 0 0 2rem #1b7896", 
+              borderRadius:"20px"
           }}>
             <h2 className="fw-bold mb-5">About Me</h2>
             <p className="fs-6">
@@ -37,8 +45,8 @@ function About() {
           </div>
 
           {/* Right - Education */}
-          <div className="col-12 col-md-5 mt-md-0 p-3 m-5" >
-            <h6 className="fw-bold mb-3 text-center text-md-start" style={{marginTop:"18%"}}>Education</h6>
+          <div className="col-12 col-md-5 mt-md-0 p-3 education" >
+            <h3 className="fw-bold mb-3 text-center text-md-start" style={{marginTop:"10%"}}>Education</h3>
 
             <div className="card mb-3 shadow-sm border-0">
               <div className="card-body">
