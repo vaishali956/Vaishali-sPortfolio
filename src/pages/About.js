@@ -53,7 +53,7 @@ function About() {
                 <h5 className="card-title fw-bold mb-1">Bachelor of technology (B.tech)</h5>
                 <p className="card-text mb-1">Institute: <strong>Axis institute of technology & management, Kanpur</strong></p>
                 <p className="card-text mb-1">Session: <strong>2022 – 2026</strong></p>
-                <p className="card-text mb-0">Cgpa: <strong>7.8</strong></p>
+                <p className="card-text mb-0">Cgpa: <strong>8.0</strong></p>
               </div>
             </div>
 

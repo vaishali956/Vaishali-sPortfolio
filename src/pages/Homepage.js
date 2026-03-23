@@ -17,7 +17,7 @@ function Homepage(){
                 high-performance, and user-focused web applications."
               description2="I combine technical precision with creativity to design efficient, scalable systems — from concept to deployment. "
               more="Open to work & collaboration opportunities"
-              resume="\Media\Resume.pdf"
+              resume="\Media\Vaishali.resume.pdf"
            />
            
            <About/>
